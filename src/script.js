@@ -21,5 +21,6 @@ btn.forEach((element, index) => {
     cart.push(item);
     localStorage.setItem("added-item", JSON.stringify(cart));
     console.log("Item added");
+    
   });
 });
